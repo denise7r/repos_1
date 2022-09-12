@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+#include <stdio.h>
+
 
 int main()
 {
     std::cout << "Hello World!\n";
+    printf("1 символ");
+    getchar(); //  ввод символа
+    printf("2 символ");
+    getchar(); //  ввод символа
+    printf("3");
+
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
